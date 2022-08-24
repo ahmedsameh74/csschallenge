@@ -1,0 +1,62 @@
+.container {
+    margin: 50px auto;
+}
+.shape {
+    color: black;
+    background-color: #eaeaea;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.first {
+    border: 5px solid red;
+    outline: 5px solid black; 
+}
+.second {
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    outline: 5px solid black;   
+}
+.third {
+    border-right: 5px dashed green;
+    border-left: 5px dashed yellow;
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed blue;
+    outline: 5px solid black;  
+}
+
+.fourth {
+    width: 400px;
+    background-color: #eaeaea;
+    padding: 10px;
+    margin: 20px auto;
+}
+.fourth p {
+    border-left: 5px solid #e91e63;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.fifth{
+    width: 400px;
+    background-color: #eaeaea;
+    padding: 10px;
+    margin: 20px auto;
+    visibility: hidden;
+}
+.sixth{
+    width: 400px;
+    background-color: #eaeaea;
+    padding: 10px;
+    margin: 20px auto;
+}
+.sixth p {
+    border-left: 5px solid #009688;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 10px;
+}
