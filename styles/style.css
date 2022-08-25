@@ -1,0 +1,30 @@
+.title:nth-child(1) {
+    color: red;
+}
+.title:nth-child(2) {
+    color: blue;
+}
+p,.title:nth-child(3) {
+    color: green;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.container .para,.container .para2, .container .para3, .container .para4 {
+    background-color: #a52a2a;
+    margin: 10px 0;
+    width: fit-content;
+    max-width: 500px;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.container .para4 {
+    /* width: 300px; */
+    height: 44.4px;
+    overflow: hidden;
+    text-align: center;
+}
