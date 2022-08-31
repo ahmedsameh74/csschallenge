@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div {
+    border: 1px solid #ff5722;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 5px;
+}
+p:nth-child(1) {
+    margin: 0;
+    border: inherit;
+    padding: inherit;
+    background-color: #ddd;
+}
+.para {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.para1 {
+    text-transform: capitalize;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+.para2 {
+    text-transform: capitalize;
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+}
+html {
+    font-size: 20px;
+}
+.text {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+.text1 {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.text2 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
