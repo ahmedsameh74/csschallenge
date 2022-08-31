@@ -1,0 +1,69 @@
+.container {
+    width: 800px;
+    background: #eee;
+    overflow: hidden;
+}
+.full-width {
+    background: #ddd;
+    text-align: center;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.three {
+    background: #ddd;
+    float: left;
+    text-align: center;
+    width: calc((100% - 60px) / 3);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.clear {
+    clear: both;
+}
+.half {
+    background: #ddd;
+    float: left;
+    text-align: center;
+    width: calc((100% - 45px) / 2);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.four {
+    background: #ddd;
+    float: left;
+    text-align: center;
+    width: calc((100% - 75px) / 4);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.container2 {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    /* background-color: ???; */
+    /* Get The Background From Image */
+    color: black;
+}
+.normal {
+    background-color: #b3b3b3;
+    padding: inherit;
+    width: inherit;
+    margin: inherit;
+}
+.one {
+    background-color: rgba(179, 179, 179, 0.1);
+    padding: inherit;
+    width: inherit;
+    margin: inherit;
+}
+.two {
+    background-color: #b3b3b3;
+    padding: inherit;
+    width: inherit;
+    margin: inherit;
+    opacity: 0.1;
+}
