@@ -1,0 +1,30 @@
+.container {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    padding: 10px;
+}
+.first, .second, .third {
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.first ol li, .second ol li, .third ul li {
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 0;
+}
+.second ol {
+    list-style: upper-roman;
+}
+.third ul {
+    padding-left: 20px;
+}
+.third ul li {
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
