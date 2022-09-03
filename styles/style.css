@@ -1,0 +1,29 @@
+p {
+    background-color: #efefef;
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    position: relative;
+    counter-increment: p-counter;
+}
+p::before {
+    content: counter(p-counter);
+    position: absolute;
+    left: -40px;
+    top: 0;
+    background-color: #f44336;
+    color: #fff;
+    width: 20px;
+    text-align: center;
+    padding: 10px;
+    /* height: 30px; */
+}
+p::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    right: 0;
+    top: 0;
+    background-color: #f44336;
+    height: 100%;
+}
