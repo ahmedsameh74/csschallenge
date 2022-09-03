@@ -1,0 +1,19 @@
+div {
+    background-color: #d4d4d4;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    /* height: 30px; */
+    text-align: center;
+    color: #000000;
+    line-height: 50px;
+}
+div::first-letter {
+    font-size: 200%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    margin-left: -70px;
+    margin-right: 20px;
+    line-height: 50px;
+}
