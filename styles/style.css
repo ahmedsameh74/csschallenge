@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.container {
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    overflow: hidden;
+    padding: 10px;
+}
+.child1, .child2{
+    width: 40%;
+    float: left;
+    background-color: #eee;
+    margin: 0 5%;
+}
+.container::after {
+    content: 'Or';
+    position: absolute;
+    background-color: #03a9f4;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+.container::before {
+    content: '';
+    position: absolute;
+    background-color: #03a9f4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 93%;
+}
+span {
+    background-color: #03a9f4;
+    display: block;
+    width: 70%;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+.circle {
+    background-color: #ddd;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 200px;
+    text-transform: capitalize;
+}
